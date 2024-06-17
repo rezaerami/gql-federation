@@ -16,9 +16,16 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@9.6.7",
+  "packageManager": "yarn@1.22.22",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@wundergraph/sdk": "^0.184.2"
+  },
+  "volta": {
+    "node": "20.14.0",
+    "yarn": "1.22.22"
+  }
 }

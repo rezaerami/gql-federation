@@ -1,0 +1,28 @@
+{
+  "name": "@repo/sauron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f .env nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^2.8.0",
+    "@apollo/server": "^4.10.4",
+    "@graphql-tools/merge": "^9.0.4",
+    "@graphql-tools/schema": "^10.0.4",
+    "@graphql-tools/stitch": "^9.2.9",
+    "@graphql-tools/utils": "^10.2.2",
+    "apollo-server-express": "^3.13.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "graphql-playground-middleware-express": "^1.7.23"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

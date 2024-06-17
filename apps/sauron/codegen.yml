@@ -1,0 +1,8 @@
+# codegen.yml
+
+overwrite: true
+schema: "schema.js"
+generates:
+  schema.gql:
+    plugins:
+      - "schema-ast"
